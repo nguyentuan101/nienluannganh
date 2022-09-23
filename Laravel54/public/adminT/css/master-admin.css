@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-color: rgb(227, 233, 228);
+}
+
+a{
+    color: rgb(128, 117, 117);
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+} 
+
+.wrap{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(227, 233, 228);
+}
+
+.header{
+    z-index:3;
+	position:fixed;
+    height: 50px;
+    width: 100%;
+   background-color: black;
+}
+.page{
+    padding: 0 27px;
+    top: 75px;
+    left: 161px;
+    z-index: 1;
+    position: relative;
+    width: 88%; 
+    
+}
+
+.menu{
+    z-index:3;
+    position: fixed;
+    width: 12%;
+    height: 100%;
+    background-color: rgb(39, 35, 35);
+    top: 50px;
+}
+
+.nd{
+    position: relative;
+    padding: 15px;
+     background-color: rgb(227, 233, 228);
+}
+
+.nd a{
+    color: rgb(137, 168, 80);
+}
+
+.nd a:hover{
+    text-decoration: none;
+    color: rgb(25, 7, 190);
+}
+
+ul{
+    list-style: none;
+} 
+
+.ul1{
+    display: none;
+}
+
+.ul1 li{
+    background-color: rgb(60, 62, 65);
+    padding-left: 10px; 
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.menu > li{
+    color: lightsteelblue;
+}
+
+.menu li:hover{
+    color:white;
+} 
+
+li{
+    line-height: 2em;
+    color: rgb(175, 161, 161);
+    padding: 0px;
+    margin: 0;
+    font-size: 1.5rem;
+    
+    padding-left: 10px;
+} 
+.icon-admin{
+    right: 0;
+    color: white;
+    position: relative;
+}
+.icon-right{
+    right: 29px;
+    position: absolute;
+    top: 2px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+#logo{
+    color: white;
+    float: left;
+}
+.icon-left{
+    left: 29px;
+    position: absolute;
+    top: 2px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.list-product{
+    width: 260px;
+    position: relative;
+    margin-left: 350px;
+}
+.list-sp-product{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.th-table{
+    line-height: 70px;
+    min-width: 100px;
+}
